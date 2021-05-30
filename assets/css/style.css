@@ -1068,7 +1068,7 @@ section {
 .team .member .pic {
   overflow: hidden;
   width: 180px;
-  height: 180px;
+  height: 180px !important;
   border-radius: 50%;
 }
 
@@ -1269,6 +1269,9 @@ section {
   .pricing .box {
     max-width: 80%;
     margin: 0 auto 30px auto;
+  }
+  .team .member .pic {
+    height: auto !important;
   }
 }
 
